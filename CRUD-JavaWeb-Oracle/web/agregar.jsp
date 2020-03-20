@@ -24,7 +24,7 @@ and open the template in the editor.
         <title>Agregar Personas</title>
     </head>
     <body>
-        <div style="text-align: center">
+        <div  style="text-align: center">
             <h1>Agregar Personas</h1>
         </div>
         <div class="container col-md-6">
