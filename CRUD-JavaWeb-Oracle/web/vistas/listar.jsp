@@ -34,7 +34,7 @@ and open the template in the editor.
                     <h5>Personas</h5>
                     <form action="./persona" method="post">
                         <input id="btnListar" type="submit" class="btn-primary" name="accion" value="Listar">
-                        <input id="btnNuevo" type="submit" class="btn btn-success" name="accion" value="Nuevo">
+                        <input id="btnNuevo" type="submit" class="btn btn-success" name="accion" value="Agregar">
                     </form>
                     <hr/>
                     <a href="index.jsp" class="btn btn-info" style="margin-left: 10px;">Volver</a>

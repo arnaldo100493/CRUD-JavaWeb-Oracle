@@ -49,12 +49,12 @@ public class PersonaServlet extends HttpServlet {
             case "Listar":
                 List<Persona> personas = personaControlador.listar();
                 request.setAttribute("personas", personas);
-                RequestDispatcher dispatcher = request.getRequestDispatcher("listar.jsp");
+                RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/listar.jsp");
                 dispatcher.forward(request, response);
                 break;
 
-            case "Nuevo":
-                dispatcher = request.getRequestDispatcher("agregar.jsp");
+            case "Agregar":
+                dispatcher = request.getRequestDispatcher("vistas/agregar.jsp");
                 dispatcher.forward(request, response);
                 break;
 
@@ -78,7 +78,7 @@ public class PersonaServlet extends HttpServlet {
                 int id = Integer.parseInt(request.getParameter("id"));
                 Persona p = personaControlador.listarPorIdPersona(id);
                 request.setAttribute("persona", p);
-                dispatcher = request.getRequestDispatcher("editar.jsp");
+                dispatcher = request.getRequestDispatcher("vistas/editar.jsp");
                 dispatcher.forward(request, response);
                 break;
 
