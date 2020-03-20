@@ -29,7 +29,7 @@ and open the template in the editor.
         </div>
         <div class="container mt-4">
             <a href="listar.jsp" class="btn btn-primary">Listar</a>
-            <a href="agregar.jsp" class="btn btn-success" style="margin-left: 10px;">Nuevo Usuario</a>
+            <a href="agregar.jsp" class="btn btn-success" style="margin-left: 10px;">Nueva Persona</a>
         </div>
         <hr/>
     </body>
